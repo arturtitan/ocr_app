@@ -1,0 +1,3 @@
+git rm -r --cached dist/
+git rm -r --cached build/
+git commit -m "移除已追踪的 dist 和 build 文件夹"
