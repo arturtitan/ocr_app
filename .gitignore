@@ -1,3 +1,24 @@
-git rm -r --cached dist/
-git rm -r --cached build/
-git commit -m "移除已追踪的 dist 和 build 文件夹"
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 打包输出
+dist/
+build/
+*.spec
+
+# 程序运行产物
+output/
+.ocr_tool_keys.json
+.ocr_tool_config.json
+
+# IDE
+.vscode/
+.idea/
+
+# 虚拟环境
+venv/
+env/
+.venv/
